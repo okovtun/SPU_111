@@ -9,7 +9,7 @@ IEEE-754:https://www.softelectro.ru/ieee754.html
 
 TODO:
 1. Выучить теорию!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-2. Решить все задачи из файла: 
+2. Решить все задачи из файла: https://github.com/okovtun/PV_111/blob/master/DataTypes/VariablesTask.pdf
 
 DONE:
 Вывести в консоль стишок "В лесу родилась Ёлочка".
