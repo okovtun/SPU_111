@@ -8,6 +8,8 @@ using std::endl;
 
 //#define WHILE_1
 //#define WHILE_2
+//#define DO_WHILE
+#define PALINDROME
 
 void main()
 {
@@ -33,6 +35,7 @@ void main()
 	}
 #endif // WHILE_2
 
+#ifdef DO_WHILE
 	char key;	//Будет хранить ASCII-код клавиши
 	do
 	{
@@ -41,7 +44,30 @@ void main()
 		//Функция _getch() находится в библиотеке conio.h
 		cout << (int)key << "\t" << key << endl;
 		//(int)key - явное преобразование типов из char в int, для того, чтобы увидеть код клавиши.
-	}while (key != Escape);
+	} while (key != Escape);
+#endif // DO_WHILE
+
+
+	int number;		//число, вводимое с клавиатуры
+	int reverse = 0;	//число, записанное наоборот
+	cout << "Введите число: "; cin >> number;
+	int buffer = number;	//копия числа, введенного с клавиатуры
+	while (buffer)
+	{
+		reverse *= 10;
+		reverse += buffer % 10;
+		buffer /= 10;
+	}
+	cout << number << endl;
+	cout << reverse << endl;
+	if (number == reverse)
+	{
+		cout << "Число палиндром" << endl;
+	}
+	else
+	{
+		cout << "Число НЕ палиндром" << endl;
+	}
 }
 //(Loop - петля)
 /*
