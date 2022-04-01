@@ -14,6 +14,11 @@ TODO:
 	0	1	1	2	3	5	8	13	21	34
 4. Вывести на экран заданное количество чисел из ряда Фибоначчи
 	0	1	1	2	3
+---------------------------------------------
+1. Вывести на экран таблицу умножения;
+2. Вывести на экран таблицу Пифагора;
+3. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt
+4. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/ChessBoard.jpg
 
 DONE:
 1. С клавиатуры вводится число, и программа должна определеить, DONE
