@@ -6,6 +6,11 @@ https://www.youtube.com/watch?v=f7-yJiCDUC4&list=PLeqyOOqxeiINceETWwsPJbkDpuw9HY
 //////////////////////////////////////////////////////////////////
 
 TODO:
+1. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt
+2. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/ChessBoard.jpg
+
+
+DONE:
 0. Выучить теорию!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 1. Написать программу, которая возводит число в степень.
    Основание и показатель степени вводтся с клавиатуры;
