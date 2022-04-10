@@ -6,9 +6,14 @@ https://www.youtube.com/watch?v=f7-yJiCDUC4&list=PLeqyOOqxeiINceETWwsPJbkDpuw9HY
 //////////////////////////////////////////////////////////////////
 
 TODO:
-1. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt
+1. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt	DONE
 2. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/ChessBoard.jpg
+3. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/HardChess.jpg
 
+TODO:
+Есть массив из 5ти элементов. Нужно ввести значения его элементов в склавиатуры, вывести его на экран
+в прямом порядке, затем в обратном порядке, вычислить сумму элементов и среднее арифметическое 
+этого массива, а так же найти в массиве минимальное и максимальное значение.
 
 DONE:
 0. Выучить теорию!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
