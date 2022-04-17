@@ -1,0 +1,17 @@
+//Синтаксис написания функции:
+
+type name(parameters)
+{
+	....;
+	group-of-statements;
+	....;
+}
+
+type - тип возвращаемого значения.
+void
+return value;
+if(четотам) return;
+
+name - имя функции, ...
+
+parameters - список принимаемых параметров.

@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void FillRand(int arr[], const int n);
@@ -27,7 +27,7 @@ void main()
 }
 void FillRand(int arr[], const int n)
 {
-	//Заполняем случайными чослами:
+	//Р—Р°РїРѕР»РЅСЏРµРј СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РѕСЃР»Р°РјРё:
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % 10;
@@ -35,7 +35,7 @@ void FillRand(int arr[], const int n)
 }
 void Print(int arr[], const int n)
 {
-	//Вывод массива на экран:
+	//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ:
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
@@ -44,7 +44,7 @@ void Print(int arr[], const int n)
 }
 void Sort(int arr[], const int n)
 {
-	//Сортировка массива:
+	//РЎРѕСЂС‚РёСЂРѕРІРєР° РјР°СЃСЃРёРІР°:
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
