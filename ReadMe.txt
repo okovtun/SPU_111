@@ -6,6 +6,9 @@ https://www.youtube.com/watch?v=f7-yJiCDUC4&list=PLeqyOOqxeiINceETWwsPJbkDpuw9HY
 //////////////////////////////////////////////////////////////////
 
 TODO:
+1. Зарегистрироваться на http://github.com;
+
+DONE:
 1. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt	DONE
 2. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/ChessBoard.jpg
 3. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/HardChess.jpg
