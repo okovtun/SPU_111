@@ -4,14 +4,9 @@ using namespace std;
 void FillRand(int arr[], const int n);
 void FillRand(double arr[], const int n);
 
-void Print(int arr[], const int n);
-void Print(double arr[], const int n);
-
-void Sort(int arr[], const int n);
-void Sort(double arr[], const int n);
-
-int Sum(int arr[], const int n);
-double Sum(double arr[], const int n);
+template<typename T>void Print(T arr[], const int n);
+template<typename T>void Sort(T arr[], const int n);
+template<typename T>T Sum(T arr[], const int n);
 
 double Avg(int arr[], const int n);	//Avg (Avarage - Среднее арифметическое)
 double Avg(double arr[], const int n);	//Avg (Avarage - Среднее арифметическое)
@@ -72,16 +67,7 @@ void FillRand(double arr[], const int n)
 	}
 }
 
-void Print(int arr[], const int n)
-{
-	//Вывод массива на экран:
-	for (int i = 0; i < n; i++)
-	{
-		cout << arr[i] << "\t";
-	}
-	cout << endl;
-}
-void Print(double arr[], const int n)
+template<typename T>void Print(T arr[], const int n)
 {
 	//Вывод массива на экран:
 	for (int i = 0; i < n; i++)
@@ -91,7 +77,7 @@ void Print(double arr[], const int n)
 	cout << endl;
 }
 
-void Sort(int arr[], const int n)
+template<typename T>void Sort(T arr[], const int n)
 {
 	//Сортировка массива:
 	for (int i = 0; i < n; i++)
@@ -100,23 +86,7 @@ void Sort(int arr[], const int n)
 		{
 			if (arr[j] < arr[i])
 			{
-				int buffer = arr[i];
-				arr[i] = arr[j];
-				arr[j] = buffer;
-			}
-		}
-	}
-}
-void Sort(double arr[], const int n)
-{
-	//Сортировка массива:
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = i + 1; j < n; j++)
-		{
-			if (arr[j] < arr[i])
-			{
-				double buffer = arr[i];
+				T buffer = arr[i];
 				arr[i] = arr[j];
 				arr[j] = buffer;
 			}
@@ -124,18 +94,9 @@ void Sort(double arr[], const int n)
 	}
 }
 
-int Sum(int arr[], const int n)
+template<typename T>T Sum(T arr[], const int n)
 {
-	int sum = 0;
-	for (int i = 0; i < n; i++)
-	{
-		sum += arr[i];
-	}
-	return sum;
-}
-double Sum(double arr[], const int n)
-{
-	double sum = 0;
+	T sum = 0;
 	for (int i = 0; i < n; i++)
 	{
 		sum += arr[i];
